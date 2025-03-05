@@ -1,0 +1,8 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+}
+
+.listBtn {
+  margin-bottom: 20px;
+}

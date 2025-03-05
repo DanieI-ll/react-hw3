@@ -1,0 +1,8 @@
+.ratingImg {
+  width: 338px;
+  margin-bottom: 10px;
+}
+
+.ratingBtn:first-child {
+  margin-left: 0px;
+}
