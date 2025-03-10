@@ -24,7 +24,7 @@ const List = () => {
 
   // Функция для удаления человека по id
   const removePerson = (id) => {
-    setPeople(people.filter((person) => person.id !== id));
+    setPeople(prevPeople => prevPeople.filter(person => person.id !== id));
   };
 
   return (
